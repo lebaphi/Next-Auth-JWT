@@ -1,2 +1,9 @@
-# Next-Auth-JWT
-Sample project with Next.js, using JWT for authentication
+# JWT example app
+Inside each of the app/server, install modules and type `yarn start` to start it up.
+
+## Server
+- express
+
+## App
+- next + react, testing SSR
+
