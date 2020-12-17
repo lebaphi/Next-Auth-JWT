@@ -48,7 +48,7 @@ app.use((req, res, next) => {
 
   // Token verification
   try {
-    var decoded = jwt.verify(token, jwtSecret);
+    const decoded = jwt.verify(token, jwtSecret);
     console.log("decoded", decoded)
   } catch (err) {
     // Catch the JWT Expired or Invalid errors
